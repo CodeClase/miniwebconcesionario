@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VenderCoche</title>
+    <link rel="stylesheet" href="styleVenderCoche.css">
+</head>
+<body>
+    <header id="home" class="header">
+        <div class="logo">
+            <a href="index.html">
+                <img src="./pngegg (1).png" alt="Logo de la marca">
+            </a>
+        </div>
+        <nav>
+           <ul class="nav-links">
+                <li><a href="venderCoche.html">Vender coche</a></li>
+                <li><a href="#">Nuevos</a></li>
+                <li><a href="#">Km 0</a></li>
+                <li><a href="#">Segunda mano</a></li>
+                <li><a href="#">Financiación</a></li>
+                <li><a href="#">Renting</a></li>
+                <li><a href="#">Suscripción</a></li>
+                <li><a href="#">Seguros coche</a></li>
+                <li><a href="#">Noticias</a></li>
+           </ul>            
+        </nav>
+        <a class="btn" href="index.html" ><button>Mi cuenta 😁</button></a>
+    </header>
+    <section>
+        <form>
+            <h2>Formulario de Venta de Coche</h2>
+
+            <label for="marca">Marca del coche:</label>
+            <input type="text" id="marca" name="marca" required>
+
+            <label for="modelo">Modelo del coche:</label>
+            <input type="text" id="modelo" name="modelo" required>
+
+            <label for="anio">Año del coche:</label>
+            <input type="number" id="anio" name="anio" required>
+
+            <label for="kilometraje">Kilometraje:</label>
+            <input type="number" id="kilometraje" name="kilometraje" required>
+
+            <label for="precio">Precio:</label>
+            <input type="number" id="precio" name="precio" required>
+
+            <label for="descripcion">Descripción:</label>
+            <textarea id="descripcion" name="descripcion" rows="4" required></textarea>
+
+            <button type="submit">Publicar Anuncio</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 Concesionario XYZ. Todos los derechos reservados.</p>
+        <nav>
+            <a href="/politica-privacidad">Política de Privacidad</a>
+            <a href="/terminos-servicio">Términos de Servicio</a>
+            <a href="/contacto">Contacto</a>
+        </nav>
+    </footer>
+    
+</body>
+</html>
