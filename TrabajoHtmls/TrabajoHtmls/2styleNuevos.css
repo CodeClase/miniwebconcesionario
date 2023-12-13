@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+}
+
+body{
+    background-color: #ffffff;
+}
+
+
+.header{
+    background-color: #4ebaf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 50px 5%;
+    
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;    
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.4);
+}
+
+.header .nav-links a{
+    font-size: 700;
+    color: #eceff1;
+    text-decoration: none;    
+}
+
+.header .nav-links li a:hover{
+    color: #5e502e;
+}
+
+.header .btn button{
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.header .btn button:hover{
+    background-color: #e2f1f8;
+    color: #fdc024;
+    transform: scale(1.1);
+}
+footer {
+    display: flex;
+    background-color: #136db6;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 50px;
+    justify-content: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    border-bottom: 1px solid #fff;
+}
+
+
+
+.container { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    gap: 30px 30px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "coche1 coche2 coche3"
+    "coche4 coche5 coche6"
+    "coche7 coche8 coche9";
+    border-radius: 10px;
+    margin: 5%;
+}
+
+.container div:hover{
+    background-color: rgb(209, 204, 204);
+}
+.container a:hover{
+    text-decoration: none;
+    color: rgb(40, 117, 206);
+}
+.container a{
+    text-decoration: none;
+    color: black;
+}
+.container div:hover{
+    transform: scale(1.2);
+}
+.container img{
+    border-radius: 10px;
+}
+
+.coche1 {
+    grid-area: coche1;
+    border: 10px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+.coche1 img{
+    width: 80%;
+}
+  
+.coche2 { 
+    grid-area: coche2; 
+    border: 10px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+
+.coche2 img{
+    width: 80%;
+}
+  
+.coche3 { 
+    grid-area: coche3;
+    border: 10px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+.coche3 img{
+    width: 80%;
+}
+  
+.coche4 {
+    grid-area: coche4;
+    border: 10px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+.coche4 img{
+    width: 80%;
+}
+  
+.coche5 { 
+    grid-area: coche5;
+    border: 10px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+.coche5 img{
+    width: 80%;
+}
+
+  
+.coche6 {
+    grid-area: coche6;
+    border: 10px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+.coche6 img{
+    width: 80%;
+}
+.coche7 {
+    grid-area: coche7;
+    border: 10px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+.coche7 img{
+    width: 80%;
+}
+.coche8 {
+    grid-area: coche8;
+    border: 10px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+.coche8 img{
+    width: 80%;
+}
+.coche9 {
+    grid-area: coche9;
+    border: 10px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+.coche9 img{
+    width: 80%;
+}
+  
